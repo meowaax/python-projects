@@ -1,0 +1,10 @@
+nome = input('Digite se nome completo: ').strip()
+sp = nome.replace(' ','')
+d = nome.split()
+print('Nome em maiúsculo: ',nome.upper())
+print('Nome em minúsculo: ',nome.lower())
+print('Quantidade de letras: ', len(sp))
+print('Número de letras no primeiro nome: ', len(d[0]))
+
+#print('Quantidade de letras: ', len(nome) - nome.count(' '))
+#print('Número de letras no primeiro nome: ', nome.find(' '))
